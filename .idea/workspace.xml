@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="botServer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d7149d3-8630-4970-9742-62c0b8e9a7ce" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_glassfish_tyrus_bundles_tyrus_standalone_client_1_13_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/olegsmirnov/WebsocketClientEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_neovisionaries_nv_websocket_client_2_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/botServer.iml" afterPath="$PROJECT_DIR$/botServer.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/botServer_jar/botServer.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$InventoryUpdaterCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$InventoryUpdaterDOTA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$InventoryUpdaterPUBG.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$Logger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OnlineUpdaterCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OnlineUpdaterDOTA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OnlineUpdaterPUBG.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OrdersUpdaterCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OrdersUpdaterDOTA.class" afterPath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OrdersUpdaterDOTA.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OrdersUpdaterPUBG.class" afterPath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$OrdersUpdaterPUBG.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesSetterCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesSetterDOTA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesSetterPUBG.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesUpdaterCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesUpdaterDOTA.class" afterPath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesUpdaterDOTA.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesUpdaterPUBG.class" afterPath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$PricesUpdaterPUBG.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$TraderCSGO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$TraderDOTA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller$TraderPUBG.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Game.class" afterPath="$PROJECT_DIR$/out/production/botServer/com/olegsmirnov/Game.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/olegsmirnov/Controller.java" afterPath="$PROJECT_DIR$/src/com/olegsmirnov/Controller.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/olegsmirnov/Game.java" afterPath="$PROJECT_DIR$/src/com/olegsmirnov/Game.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/botServer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1524910637625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+                <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+                <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+                <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+                <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+                <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+                <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+                <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+                <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+                <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+                <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+                <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+                <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+                <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+                <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+                <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+                <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+                <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+                <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+                <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+                <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+                <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>market.csgo.com</find>
+      <find>API_KEY_CSGO</find>
+      <find>autotradableItemsPUBG</find>
+      <find>OnlineUpdaterCSGO</find>
+      <find>InventoryUpdaterCSGO</find>
+      <find>OrdersUpdaterCSGO</find>
+      <find>PricesSetterCSGO</find>
+      <find>PricesUpdaterCSGO</find>
+      <find>TraderCSGO</find>
+      <find>processOrdersCSGO</find>
+      <find>setPricesCSGO</find>
+      <find>Game.CSGO</find>
+      <find>updatePricesCSGO</find>
+      <find>processTradesCSGO</find>
+      <find>updateDatabase</find>
+      <find>ping</find>
+      <find>goOnli</find>
+      <find>autotra</find>
+      <find>autotradableItemsPUBG2</find>
+      <find>trades</find>
+      <find>pubg.tm/api/Trades</find>
+      <find>Mass</find>
+      <find>very low</find>
+      <find>API_KEY_DOTA</find>
+      <find>API_KEY_PUBG2</find>
+      <find>API_KEY_PUBG</find>
+      <find>Game.DOTA</find>
+      <find>Game.PUBG2</find>
+      <find>Game.PUBG</find>
+      <find>pubg.tm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/olegsmirnov/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/olegsmirnov/WebsocketClientEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/com/olegsmirnov/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/olegsmirnov/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="186" />
+    <option name="y" value="122" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="botServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="botServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="botServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="botServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="botServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="botServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="olegsmirnov" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="F:/JavaCompiler-master" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\botServer\src\com\olegsmirnov" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\botServer\src\com\olegsmirnov" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.olegsmirnov.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="botServer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d7149d3-8630-4970-9742-62c0b8e9a7ce" name="Default" comment="" />
+      <created>1516804651398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516804651398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="186" y="122" width="1612" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39381722" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34793815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="143" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17034">
+          <caret line="1002" column="47" lean-forward="false" selection-start-line="1002" selection-start-column="47" selection-end-line="1002" selection-end-column="47" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17034">
+          <caret line="1002" column="47" lean-forward="false" selection-start-line="1002" selection-start-column="47" selection-end-line="1002" selection-end-column="47" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22066">
+          <caret line="1298" column="5" lean-forward="false" selection-start-line="1298" selection-start-column="5" selection-end-line="1298" selection-end-column="5" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18700">
+          <caret line="1100" column="72" lean-forward="false" selection-start-line="1100" selection-start-column="72" selection-end-line="1100" selection-end-column="72" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17697">
+          <caret line="1041" column="57" lean-forward="false" selection-start-line="1041" selection-start-column="57" selection-end-line="1041" selection-end-column="57" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17697">
+          <caret line="1041" column="57" lean-forward="true" selection-start-line="1041" selection-start-column="57" selection-end-line="1041" selection-end-column="57" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17119">
+          <caret line="1007" column="47" lean-forward="false" selection-start-line="1007" selection-start-column="47" selection-end-line="1007" selection-end-column="47" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="1418" column="0" lean-forward="false" selection-start-line="1418" selection-start-column="0" selection-end-line="1418" selection-end-column="0" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/bot/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/items_to_save" />
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_bot.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="742" column="16" lean-forward="false" selection-start-line="742" selection-start-column="16" selection-end-line="742" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/WebsocketClientEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/JavaCompiler-master/src/lexer/Lexer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="method#processOrdersPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processOrdersDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#setPricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePricesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#processTradesDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#processAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#processHundredOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemAveragePrice#1;class#Controller#0" expanded="false" />
+            <element signature="method#getBestBuyOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#getBestSellOfferPrice#0;class#Controller#0" expanded="false" />
+            <element signature="method#sendPostRequest#0;class#Controller#0" expanded="false" />
+            <element signature="method#goOnline#0;class#Controller#0" expanded="false" />
+            <element signature="method#getItemSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateDatabase#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteSellOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteBuyOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#deleteAllOrders#0;class#Controller#0" expanded="false" />
+            <element signature="method#getDatabaseName#0;class#Controller#0" expanded="false" />
+            <element signature="method#getInventory#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTradesMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getMoney#0;class#Controller#0" expanded="false" />
+            <element signature="method#getWSAuth#0;class#Controller#0" expanded="false" />
+            <element signature="method#showLastTrades#0;class#Controller#0" expanded="false" />
+            <element signature="method#getTime#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OrdersUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#PricesUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#TraderDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#InventoryUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterPUBG2#0;class#Controller#0" expanded="false" />
+            <element signature="class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#OnlineUpdaterDOTA#0;class#Controller#0" expanded="false" />
+            <element signature="class#Logger#0;class#Controller#0" expanded="false" />
+            <element signature="method#run#0;class#Logger#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/olegsmirnov/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>botServer:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>botServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.glassfish.tyrus.bundles:tyrus-standalone-client:1.13.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
