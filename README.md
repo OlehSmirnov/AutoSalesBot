@@ -1,1 +1,1 @@
-Bot which I made a while ago that was used to auto trade various game items using real money
+Bot which I made a while ago the purpose of which was to auto trade various game items
