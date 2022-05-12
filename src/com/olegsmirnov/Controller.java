@@ -16,10 +16,6 @@ import static org.apache.http.protocol.HTTP.USER_AGENT;
 
 public class Controller extends Thread {
 
-    private final String API_KEY_DOTA1 = "110mG8au7y8917kZ32q5L2C1k02m43w";
-    private final String API_KEY_DOTA2 = "h8eTqTx8UqZ84W7B90EjsGItU2EiM9c";
-    private final String API_KEY_DOTA3 = "5DuuUpO7U2Pqx4NiMZ47vsSxR400QXs";
-
     private final double SELL_PERCENT = 0.997;
     private final double BUY_PERCENT = 0.943;
     private final int MINIMUM_POPULARITY = 150;
